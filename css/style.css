@@ -99,6 +99,14 @@ main{
 
 .searchbox-con{
 	border-right: none !important;
+   position:relative; 
+}
+
+.searchbox-con .fa-search{
+  font-size:.9em;
+  position:absolute;
+  left:20%;
+  top:35%
 }
 
 .top-header{
