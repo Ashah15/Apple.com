@@ -1,48 +1,3 @@
-.container{
-  display: flex;
-  position: relative;
-  padding-top: 80px;
-}
-
-.body {
-  margin-top:0 !important;
-  padding-top:0 !important;
-  /*min-width:800px !important;*/
-}
-.wrapper {
-text-align: left;
-cursor: default;
-border: 1px solid #ccc;
-border-top: 0;
-background: #fff;
-box-shadow: -1px 1px 3px rgba(0,0,0,.1);
-position: absolute;
-display: none;
-z-index: 2147483647;
-max-height: 254px;
-overflow: hidden;
-overflow-y: auto;
-box-sizing: border-box;
-
-}
-.wb-autocomplete-suggestion {
- position: relative;
- padding: 0 .6em;
- line-height: 23px;
- white-space: nowrap;
- overflow: hidden;
- text-overflow: ellipsis;
- font-size: 1.02em;
- color: #333;
-}
-.wb-autocomplete-suggestion b {
-  font-weight: bold;
- }
-
-.wb-autocomplete-suggestion.selected {
-   background: #f0f0f0;
-}
-
 body{
 	margin:0;padding:0;
 	font-family: 'Lato', sans-serif;
@@ -99,19 +54,20 @@ main{
 
 .searchbox-con{
 	border-right: none !important;
-   position:relative; 
+	position: relative;
 }
 
+
 .searchbox-con .fa-search{
-  font-size:.9em;
-  position:absolute;
-  left:20%;
-  top:35%
+	font-size: .9em;
+    position: absolute;
+    left: 20%;
+    top: 35%;
 }
 
 .top-header{
 	min-height: 65vh;
-	background-image: url('../images/verse.jpg');
+	background-image: url('../images/your_verse_hero.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: bottom left;
@@ -159,12 +115,12 @@ section.promo-pages{
 	display: flex;
 	flex-direction: row;
 	margin-top: .1rem;
-}
+}   
 
 footer{
 	font-size: .65em;
-	max-width: 1100px;
-	margin:1.3rem auto;
+	max-width: 1400px;
+	margin:.4rem auto;
 	color:#161616;
 }
 
@@ -181,4 +137,56 @@ footer a{
 
 .copyright{
 	margin-top: 1.2rem;
+}
+
+
+.first-image{
+	background: url('../images/first-text.png') no-repeat center center;
+    height: 200px;
+    width: 100%;
+    position: absolute;
+    top: 15%;
+    left: 0;
+}
+
+.second-image{
+	background: url('../images/second-text.png') no-repeat center center;
+    height: 200px;
+    width: 100%;
+    position: absolute;
+    top: 25%;
+    left: 0;
+}
+
+.third-image{
+	background: url('../images/third-text.png') no-repeat center center;
+    height: 200px;
+    width: 100%;
+    position: absolute;
+    top: 36%;
+    left: 0;
+}
+
+.promo-pages .col{
+	flex: 1;
+	height: 210px;
+	width:100%;
+	margin-right: .2rem;
+}
+
+.first-promo-img{
+	background: url('../images/promo_iphone5s.jpg') no-repeat center center;
+}
+
+.second-promo-img{
+	background: url('../images/promo_iphone5c.jpg') no-repeat center center;
+}
+
+.third-promo-img{
+	background: url('../images/promo_30_years.jpg') no-repeat center center;
+}
+
+.fourth-promo-img{
+	background: url('../images/promo_supplier_responsibility.jpg') no-repeat center center;
+	
 }
