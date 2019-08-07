@@ -1,0 +1,192 @@
+body{
+	margin:0;padding:0;
+	font-family: 'Lato', sans-serif;
+}
+
+
+main{
+	max-width: 1400px;
+	margin:auto;
+}
+
+.top-nav{
+	width:100%;
+	position: absolute;
+	top:20px;
+}
+
+.top-nav .fa{
+	font-size: 1.2rem;
+}
+
+.top-nav ul{
+   display: flex;
+   flex-direction: row;
+   margin:0;
+   padding:0;
+   justify-content: center;
+   align-items: center;
+   color:#fff;
+   background: linear-gradient(#777777,#777777,#605f5f,#777777,#777777);
+   border-radius: 5px;
+   max-width: 1100px;
+   margin:auto;
+   width:100%;
+   box-shadow: rgba(0,0,0,0.3) 0 1px 2px;
+}
+
+.top-nav li{
+	list-style: none;
+	flex-grow: 1;
+	text-align: center;
+	padding:.6rem 0;
+	font-size: .87em;
+	border-right: 1px solid #605f5f;
+}
+
+.searchbox{
+	background: transparent;
+	border-radius: 30px;
+	max-width: 150px;
+	border-color: #464646;
+	border-width: 2px 1px 1px 1px;
+}
+
+.searchbox-con{
+	border-right: none !important;
+	position: relative;
+}
+
+
+.searchbox-con .fa-search{
+	font-size: .9em;
+    position: absolute;
+    left: 20%;
+    top: 35%;
+}
+
+.top-header{
+	min-height: 65vh;
+	background-image: url('../images/your_verse_hero.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: bottom left;
+	text-align: center;
+	color:#fff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.img-responsive{
+	width: 100%;
+	height: auto;
+}
+
+.top-header p{
+	margin:0;
+	margin-bottom: 1rem;
+}
+
+
+.top-header-title {
+    font-size: 4rem;
+    font-weight: 300;
+    max-width: 700px;
+    width: 90%;
+}
+
+.top-header-subtitle{
+	font-size: 1.8rem;
+    font-weight: 300;
+    max-width: 700px;
+
+}
+
+.top-header-link{
+	font-size: 1.4rem;
+    font-weight: 300;
+    max-width: 700px;
+    width: 90%;
+}
+
+section.promo-pages{
+	display: flex;
+	flex-direction: row;
+	margin-top: .1rem;
+}   
+
+footer{
+	font-size: .65em;
+	max-width: 1400px;
+	margin:.4rem auto;
+	color:#161616;
+}
+
+footer a{
+	text-decoration: none;
+	color:#117db8;
+}
+
+.footer-row{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.copyright{
+	margin-top: 1.2rem;
+}
+
+
+.first-image{
+	background: url('../images/first-text.png') no-repeat center center;
+    height: 200px;
+    width: 100%;
+    position: absolute;
+    top: 15%;
+    left: 0;
+}
+
+.second-image{
+	background: url('../images/second-text.png') no-repeat center center;
+    height: 200px;
+    width: 100%;
+    position: absolute;
+    top: 25%;
+    left: 0;
+}
+
+.third-image{
+	background: url('../images/third-text.png') no-repeat center center;
+    height: 200px;
+    width: 100%;
+    position: absolute;
+    top: 36%;
+    left: 0;
+}
+
+.promo-pages .col{
+	flex: 1;
+	height: 210px;
+	width:100%;
+	margin-right: .2rem;
+}
+
+.first-promo-img{
+	background: url('../images/promo_iphone5s.jpg') no-repeat center center;
+}
+
+.second-promo-img{
+	background: url('../images/promo_iphone5c.jpg') no-repeat center center;
+}
+
+.third-promo-img{
+	background: url('../images/promo_30_years.jpg') no-repeat center center;
+}
+
+.fourth-promo-img{
+	background: url('../images/promo_supplier_responsibility.jpg') no-repeat center center;
+	
+}
